@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-Func<string> helloWorld = () => "Hello world";
-var newHelloWorld = () => "Hello world";
+Func<string> helloWorld = () => "Указывать тип делегата необязательно!";
+var newHelloWorld = () => "Указывать тип делегата необязательно!";
 Console.WriteLine(newHelloWorld());
 var text = () => null;
 

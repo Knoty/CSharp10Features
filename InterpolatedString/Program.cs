@@ -2,11 +2,6 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 
-var a = 15;
-var b = 1;
-MyInterpolatedStringHandler myHandler = $"Это A: {a}, а это B: {b}";
-Console.WriteLine(myHandler.GetString());
-
 [Route("ConstInterpolatedStrings")]
 public static class ApiRoutes
 {
@@ -22,9 +17,9 @@ public static class ApiRoutes
     }
 }
 
-public class InterpolatedStringHandlersSandbox
+public class Programm
 {
-    public void StringFormat()
+    public static void Main()
     {
         var a = 15;
         var b = 1;
@@ -40,7 +35,7 @@ public class InterpolatedStringHandlersSandbox
         c = handler.ToStringAndClear();
 
         MyInterpolatedStringHandler myHandler = $"Это A: {a}, а это B: {b}";
-        c = myHandler.GetString();
+        Console.WriteLine(myHandler.GetString());
     }
 }
 

@@ -1,5 +1,5 @@
 ﻿
-Console.WriteLine("Hello World!");
+Console.WriteLine("C#9 Объявления верхнего уровня!");
 
 /*namespace FileScopedNamespaceDeclaration
 {

@@ -10,8 +10,8 @@ string y1 = string.Empty;
 (x1, y1) = book;
 
 // C#10
-string y2 = string.Empty;
-(string x2, y2) = book;
+string x2 = string.Empty;
+(x2, string y2) = book;
 Console.WriteLine(x2 + " от " + y2);
 
 internal record Book(string Title, string Author);

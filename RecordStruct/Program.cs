@@ -29,7 +29,7 @@ public class Program
     }
 }
 
-public record Book1(string Title, string Author);
+public record class Book1(string Title, string Author);
 
 public readonly record struct Book2(string Title, string Author);
 
@@ -60,14 +60,4 @@ public record PlayBook : Book3
     {
         return base.ToString();
     }
-}
-
-public struct Magazine
-{
-    public Magazine()
-    {
-        Title = string.Empty;
-    }
-
-    public string Title { get; init; }
 }

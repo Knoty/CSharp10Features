@@ -1,5 +1,4 @@
 ﻿using ExtendedPropertyPatterns.Author;
-using FileScopedNamespaceDeclaration;
 
 public class Store
 {
